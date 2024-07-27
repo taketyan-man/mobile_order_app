@@ -27,6 +27,29 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem 'devise'
+
+# Authorization (optional)
+gem 'pundit'
+
+# For background jobs (optional)
+gem 'sidekiq'
+
+# For API documentation (optional)
+gem 'rswag'
+
+# For handling payments
+gem 'stripe'
+
+# For handling file uploads (optional)
+gem 'carrierwave'
+
+# For internationalization
+gem 'rails-i18n'
+
+# Pagination (optional)
+gem 'kaminari'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -68,5 +91,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'faker'
 end
