@@ -1,0 +1,11 @@
+{
+  "name": "mobile_order_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taketyan-man/mobile_order_app.git",
+  "author": "taketyan-man <pbb4g7zhfb@yahoo.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.23.1"
+  }
+}

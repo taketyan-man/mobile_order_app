@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Check if foreman is installed, if not install it
+if ! command -v foreman &> /dev/null
+then
+  echo "foreman could not be found, installing..."
+  gem install foreman
+fi
+
+# Run foreman to start Rails and esbuild
+foreman start -f Procfile.dev
+
